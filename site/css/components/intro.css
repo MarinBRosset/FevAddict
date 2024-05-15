@@ -1,0 +1,28 @@
+
+.intro {
+  position: relative;
+  width: 100%;
+}
+
+#txt-intro {
+  position: absolute;
+  top: 46%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  font-family: Copperplate;
+  text-shadow: black 2px 2px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.intro:hover #txt-intro {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #txt-intro {
+    font-size: 35px;
+  }
+}
