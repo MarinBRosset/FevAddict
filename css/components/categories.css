@@ -1,0 +1,46 @@
+/* catégories des produits */
+
+.ctg-prod {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding: 0px 30px;
+	max-width: 1100px;
+	font-family: Copperplate;
+}
+
+.ctg-sub {
+	border: solid 1px darkgrey;
+	border-radius: 5px;
+	padding: 10px 30px;
+	margin: 0px 10px;
+	text-align: center;
+	box-shadow: 2px 2px 1px rgb(210,210,210);
+}
+
+.txt-ctg {
+	font-size: 13px;
+}
+
+.ctg-sub:hover {
+	transform: scale(1.05);
+}
+
+/* récursif */ 
+
+@media (max-width:540px) {
+	.ctg-prod {
+		padding: 0px 10px;
+	}
+}
+
+
+@media (min-width:1200px) {
+	.ctg-prod {
+		padding: 0px 150px;
+	}
+	
+}
+
+
+
